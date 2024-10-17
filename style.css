@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clock-box {
+    background: #0c0b058d;
+    width: 850px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 120px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+
+body {
+    background-color: orange;
+}
+
+.hours, .minut , .second {
+    width: 221px;
+    height: 235px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+    padding: 20px;
+    }
+
+
+    .hours-text, .minut-text, .second-text{
+        width: 221px;
+        height: 235px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 90px;
+        justify-content: center;
+        }
